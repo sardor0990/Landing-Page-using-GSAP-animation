@@ -223,7 +223,23 @@ a.aboutme{
     }
 
     .wrapper-img{
-        right: 0%;
-        width: 50%;
+        right: -17%;
+        width: 41%;
+        top: 33%;
+    }
+
+    .about video{
+        margin-left: 2em;
+    }
+}
+
+@media(max-width: 650px) {
+    .about video{
+        margin-left: 6em; 
+    }
+
+    .wrapper-img{
+        right: 10%;
+        top: 50%;
     }
 }
