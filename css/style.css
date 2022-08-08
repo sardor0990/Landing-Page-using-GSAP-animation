@@ -245,6 +245,20 @@ a.aboutme{
 }
 
 
+@media(max-width: 540px) {
+    .about video{
+        margin-left: 1em; 
+        width: 240px;
+    }
+
+    .wrapper-img {
+        right: -14%;
+        top: 36%;
+        width: 37%;
+    }
+}
+
+
 @media(max-width: 370px) {
     .about video{
         margin-left: 3em;
