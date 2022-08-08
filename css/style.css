@@ -216,4 +216,9 @@ a.aboutme{
     .about p {
           width: 100%;
     }
+
+    .wrapper-img{
+        right: 0%;
+        width: 50%;
+    }
 }
