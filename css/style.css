@@ -23,6 +23,12 @@ html, body{
     background: #dcff7c;
 }
 
+.play-music{
+    position: absolute;
+    top: -999px;
+    left: -999px;
+}
+
 .wrapper{
     position: absolute;
     width: 100%;
