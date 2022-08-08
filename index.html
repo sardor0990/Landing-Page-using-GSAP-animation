@@ -12,10 +12,7 @@
   <body>
 
   
-      <video width="340" height="240" controls autoplay class="video-play">
-            <source src="video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-       </video>
+
 
     <div class="wrapper">
       <div class="nav">
@@ -31,6 +28,12 @@
           doloribus deserunt iusto, excepturi rem! Incidunt natus similique
           delectus facilis architecto!
         </p>
+        
+        <video width="340" height="240" controls autoplay class="video-play">
+            <source src="video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+       </video>
+        
       </div>
       <div class="wrapper-img">
         <div class="box"></div>
@@ -91,7 +94,7 @@
             delay: 1.5
         })
 
-        TweenMax.staggerFrom(".nav > a, .about p, .sub-header > a", 2, {
+        TweenMax.staggerFrom(".nav > a, .about p, .about video, .sub-header > a", 2, {
             opacity: 0,
             y: 30,
             ease: Expo.easeInOut,
