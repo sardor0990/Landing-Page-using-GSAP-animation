@@ -23,12 +23,6 @@ html, body{
     background: #dcff7c;
 }
 
-.play-music{
-    position: absolute;
-    top: -999px;
-    left: -999px;
-}
-
 .wrapper{
     position: absolute;
     width: 100%;
@@ -217,6 +211,11 @@ a.aboutme{
 .block-20 {
       left: 95%;
 }
+
+.video-play{
+    margin-left: 5em;
+}
+
 
 @media(max-width: 900px) {
     .about p {
