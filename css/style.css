@@ -243,3 +243,21 @@ a.aboutme{
         top: 50%;
     }
 }
+
+
+@media(max-width: 370px) {
+    .about video{
+        margin-left: 3em;
+        width: 240px;
+    }
+
+    .about p{
+        margin: 0 1.6em ;
+    }
+
+    .wrapper-img{
+        width: 37%;
+        right: 14%;
+         top: 61%;
+    }
+}
