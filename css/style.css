@@ -211,3 +211,9 @@ a.aboutme{
 .block-20 {
       left: 95%;
 }
+
+@media(max-width: 900px) {
+    .about p {
+          width: 100%;
+    }
+}
